@@ -1,0 +1,87 @@
+#content{
+	.secao-projetos{
+		margin: 50px auto;
+
+		.titulo-page{
+			margin-bottom: 25px;
+
+			img.seta{
+				margin:25px 0;
+			}
+		}
+		.projetos{
+			margin-bottom: 20px;
+		}
+		article{
+			.entry-content{
+				.saiba-mais{
+					font-style: italic;
+				}
+			}
+		}
+	}
+	.secao-sobre{
+		padding: 100px;
+	    background-image: url("images/background-projeto.png");
+	    background-repeat: no-repeat;
+	    background-position: center; 
+	    width: 100%;
+	    height: 804px;
+
+	    .sobre-vf{
+	    	.sobre-right{
+	    		background-color:#272727;
+	    		height: 600px;
+	    		img{
+	    			width: 100%;
+	    			max-width: 279px;
+	    			margin: 200px 0;
+	    		}
+	    	}
+	    	.sobre-left{
+	    		padding:130px 30px;
+	    		background-color:#FFFFFF;
+	    		height: 600px;
+	    	}
+
+	    }		
+	}
+	.secao-detalhes{
+		.container{
+			.comentario{
+				margin-top:50px;
+			}
+			.redes-sociais-wrap{
+				margin: 50px 0;
+
+				.redes{
+					margin-top: 25px;
+
+					ul{
+						width: 325px;
+						padding:0;
+						margin: 0 auto;
+						li{
+							margin: 0 2px;
+							list-style: none;
+							float:left;
+						}
+					}						
+				}
+			
+			}			
+		}
+	}
+	.detalhes-projeto{
+		min-height: 700px;
+
+	}
+}
+
+@media (max-width: 991px) {  
+
+}
+
+@media (min-width: 992px) {  
+  
+}
