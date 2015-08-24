@@ -58,13 +58,13 @@ get_header(); ?>
 		<div class="sobre-vf container">
 			<div class="row">
 				<div class="col-md-6 sobre-right text-center">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-arquitetura2.png"?>" />
+					<img style="display:none" class="fade-effect-a" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-arquitetura2.png"?>" />
 				</div>
 				<div class="col-md-6 sobre-left">
-					<h1 class="text-center">V&F Arquitetura e Design de Interiores</h1><br>
-					<p><strong>A V&F Arquitetura surgiu da união entre o arquiteto Renato Furlanis e a designer Vivian Furlanis.</strong></p>
-					<p>Formados pela Universidade Anhembi Morumbi e Panamericana de Arte e Design, atuam no mercado de arquitetura e design de interiores, realizando projetos residenciais e comerciais.</p>
-					<p>De perfil contemporâneo, procuram criar espaços confortáveis, sofisticados e sobretudo funcionais, predominando a harmonia e elegância, trabalhando sempre com a fantasia e sonho do cliente.</p>
+					<h1 style="display:none" class="text-center fade-effect-b">V&F Arquitetura e Design de Interiores</h1><br>
+					<p style="display:none" class="fade-effect-c"><strong>A V&F Arquitetura surgiu da união entre o arquiteto Renato Furlanis e a designer Vivian Furlanis.</strong></p>
+					<p style="display:none" class="fade-effect-d">Formados pela Universidade Anhembi Morumbi e Panamericana de Arte e Design, atuam no mercado de arquitetura e design de interiores, realizando projetos residenciais e comerciais.</p>
+					<p style="display:none" class="fade-effect-e">De perfil contemporâneo, procuram criar espaços confortáveis, sofisticados e sobretudo funcionais, predominando a harmonia e elegância, trabalhando sempre com a fantasia e sonho do cliente.</p>
 				</div>
 			</div>
 		</div>

@@ -8,6 +8,19 @@
             } else {
                 $meuMenu.removeClass('fixar');
             }
+
+            if (1150 <= $(window).scrollTop()) {
+                    $('.fade-effect-a').fadeIn(2500,function(){
+                        $('.fade-effect-b').fadeIn(1000,function(){
+                            $('.fade-effect-c').fadeIn(1000,function(){  
+                                $('.fade-effect-d').fadeIn(1000,function(){ 
+                                    $('.fade-effect-e').fadeIn(1000,function(){  
+                                    });   
+                                });  
+                            });                        
+                        });
+                    });
+            }
         });
     });
 })(jQuery);
