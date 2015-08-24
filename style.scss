@@ -30,6 +30,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	a:hover{
 		color:#C0C0C0;
 	}
+	.botao-enviar{
+		padding: 15px;
+		background-image: none;
+		background-color: #272727;
+		color:#FFFFFF;
+	}
+	.botao-enviar:hover{
+	    opacity: 0.6;
+	    filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
 	@import 'header';
 	@import 'content';
 	@import 'footer';

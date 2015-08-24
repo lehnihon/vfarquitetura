@@ -33,6 +33,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page a:hover {
   color: #C0C0C0;
 }
+/* line 33, style.scss */
+#page .botao-enviar {
+  padding: 15px;
+  background-image: none;
+  background-color: #272727;
+  color: #FFFFFF;
+}
+/* line 39, style.scss */
+#page .botao-enviar:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
 /* line 1, _header.scss */
 #page #header.home {
   background-image: url("images/background-predio.jpg");
@@ -131,12 +144,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 /* line 23, _content.scss */
 #page #content .secao-sobre {
-  padding: 100px;
   background-image: url("images/background-projeto.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 804px;
+}
+/* line 30, _content.scss */
+#page #content .secao-sobre .sobre-vf {
+  padding-top: 100px;
 }
 /* line 32, _content.scss */
 #page #content .secao-sobre .sobre-vf .sobre-right {
@@ -183,6 +199,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page #content .detalhes-projeto {
   min-height: 700px;
 }
+@media (max-width: 991px) {
+  /* line 83, _content.scss */
+  #page #content .secao-sobre {
+    background-image: none;
+  }
+  /* line 85, _content.scss */
+  #page #content .secao-sobre .sobre-vf {
+    padding-top: 0px;
+  }
+  /* line 87, _content.scss */
+  #page #content .secao-sobre .sobre-vf .sobre-right {
+    height: auto;
+  }
+  /* line 89, _content.scss */
+  #page #content .secao-sobre .sobre-vf .sobre-right img {
+    margin: 0;
+    margin: 50px 0;
+  }
+  /* line 94, _content.scss */
+  #page #content .secao-sobre .sobre-vf .sobre-left {
+    height: auto;
+    padding: 50px;
+  }
+}
 /* line 1, _footer.scss */
 #page #footer {
   background-color: #272727;
@@ -201,13 +241,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   color: #66dfca;
 }
 
-/* line 37, style.scss */
+/* line 47, style.scss */
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-/* line 42, style.scss */
+/* line 52, style.scss */
 .e-claro:hover {
   opacity: 0.6;
   filter: alpha(opacity=60);

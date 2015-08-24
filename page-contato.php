@@ -17,7 +17,7 @@ get_header('outros'); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				Form
+				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); } ?>
 			</div>
 			<div class="col-md-6">
 				<h3>Telefone</h3>

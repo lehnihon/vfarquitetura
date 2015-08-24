@@ -32,12 +32,14 @@ get_header('outros'); ?>
 	<div class="secao-detalhes">
 		<div class="container">
 			<div class="row text-center comentario">
-				<p>A V&F tem uma característica que está em todos os seus projetos:<br>
-					a busca pela qualidade, estilo e bom gosto.
-				</p>
-				<h4><i>"Desenvolvemos nossos projetos nas fantasias e sonhos de cada cliente, aliando funcionalidade e bom gosto. 
-					Nosso maior prazer é entregar um projeto e ver o sorriso no rosto de nossos clientes"</i></h4>
-				<p><i>Renato Furlanis e Vivian Furlanis</i></p>
+				<div class="col-md-12">
+					<p>A V&F tem uma característica que está em todos os seus projetos:<br>
+						a busca pela qualidade, estilo e bom gosto.
+					</p>
+					<h4><i>"Desenvolvemos nossos projetos nas fantasias e sonhos de cada cliente, aliando funcionalidade e bom gosto. 
+						Nosso maior prazer é entregar um projeto e ver o sorriso no rosto de nossos clientes"</i></h4>
+					<p><i>Renato Furlanis e Vivian Furlanis</i></p>
+				</div>
 			</div>
 			<?php get_template_part( 'redessociais' ); ?>
 		</div>

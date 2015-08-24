@@ -12,7 +12,10 @@
 	<footer id="footer" role="contentinfo">
 		<div class="container">
 			<div class="row">
-				&copy; 2015 V&F Arquitetura e Design de Interiores. <a href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
+				<div class="col-md-12">
+					&copy; 2015 V&F Arquitetura e Design de Interiores. <a href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
+				</div>
+				
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</footer><!-- #footer -->
