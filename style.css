@@ -199,25 +199,36 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 #page #content .detalhes-projeto {
   min-height: 700px;
 }
+/* line 79, _content.scss */
+#page #content .detalhes-projeto .gallery figure {
+  float: left;
+  margin: 10px 25px;
+}
+/* line 84, _content.scss */
+#page #content .detalhes-projeto .gallery:after {
+  clear: both;
+  display: table;
+  content: " ";
+}
 @media (max-width: 991px) {
-  /* line 83, _content.scss */
+  /* line 94, _content.scss */
   #page #content .secao-sobre {
     background-image: none;
   }
-  /* line 85, _content.scss */
+  /* line 96, _content.scss */
   #page #content .secao-sobre .sobre-vf {
     padding-top: 0px;
   }
-  /* line 87, _content.scss */
+  /* line 98, _content.scss */
   #page #content .secao-sobre .sobre-vf .sobre-right {
     height: auto;
   }
-  /* line 89, _content.scss */
+  /* line 100, _content.scss */
   #page #content .secao-sobre .sobre-vf .sobre-right img {
     margin: 0;
     margin: 50px 0;
   }
-  /* line 94, _content.scss */
+  /* line 105, _content.scss */
   #page #content .secao-sobre .sobre-vf .sobre-left {
     height: auto;
     padding: 50px;

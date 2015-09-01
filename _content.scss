@@ -74,7 +74,18 @@
 	}
 	.detalhes-projeto{
 		min-height: 700px;
+		.gallery{
 
+			figure{
+				float:left;
+				margin: 10px 25px;
+			}
+		}
+		.gallery:after{
+			clear:both;
+		    display: table;
+		    content: " ";
+		}
 	}
 }
 
