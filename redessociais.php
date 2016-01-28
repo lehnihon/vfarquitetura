@@ -9,7 +9,7 @@
 		<div class="col-md-12">
 			<ul>
 				<li>
-					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/facebook-redes.jpg"?>" /></a>
+					<a target="_blank" href="https://www.facebook.com/vfarquiteturaeinteriores"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/facebook-redes.jpg"?>" /></a>
 				</li>
 				<li>
 					<a href=""><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/google-redes.jpg"?>" /></a>
